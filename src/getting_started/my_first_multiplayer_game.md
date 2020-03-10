@@ -6,9 +6,9 @@ categories:
     - Tutorial
 ---
 
-# My First Multiplayer Game
+# Build Your First Game In Core
 
-!!! warning
+<!-- !!! warning
     Flagged for Review.
     Incomplete or outdated information may be present.
 
@@ -25,23 +25,25 @@ Welcome to Core! We're excited to have you in Closed Alpha and can't wait to see
     * Core Content (Props & Materials)
     * Player Movement Settings
     * Community Content
-    * Publishing
+    * Publishing -->
 
-## Create a New Game
+### Create a New Deathmatch Project
 
 To get started, we're going to create a new project.
 
-1. Click on **Create New**.
+#### Click **Create New**
 
-    ![Create New](../img/MyFirstMultiplayer/CreateNew.png){: .center}
+![Create New](../img/MyFirstMultiplayer/CreateNew.png){: .center}
 
-2. Select the **Deathmatch** framework!
+#### Select the **Deathmatch** framework
 
-    ![Deathmatch](../img/MyFirstMultiplayer/Deathmatch.png){: .center}
+![Deathmatch](../img/MyFirstMultiplayer/Deathmatch.png){: .center}
 
-3. Name your project `MyFirstMultiplayerGame` or whatever you like! Then, click Create.
+#### Name your project `MyFirstMultiplayerGame`
 
-    ![Name](../img/MyFirstMultiplayer/MyFirstMultiplayerGame.png){: .center}
+![Name](../img/MyFirstMultiplayer/MyFirstMultiplayerGame.png){: .center}
+
+#### Click **Create**
 
 ### Explore the Map
 
