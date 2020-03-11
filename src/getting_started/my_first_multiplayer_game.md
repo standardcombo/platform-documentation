@@ -27,46 +27,74 @@ Welcome to Core! We're excited to have you in Closed Alpha and can't wait to see
     * Community Content
     * Publishing -->
 
-### Create a New Deathmatch Project
+## Start a New Project
 
-To get started, we're going to create a new project.
+To get started, use the **Create** menu to make a new project
 
-#### Click **Create New**
+### Click **Create New**
 
 ![Create New](../img/MyFirstMultiplayer/CreateNew.png){: .center}
 
-#### Select the **Deathmatch** framework
+1. With Core open, click the **Create** Tab on the left side menu.
+2. Click **Create New Game**.
+
+### Select the **Deathmatch** framework
 
 ![Deathmatch](../img/MyFirstMultiplayer/Deathmatch.png){: .center}
 
-#### Name your project `MyFirstMultiplayerGame`
+<!-- ### Create a new Project
 
-![Name](../img/MyFirstMultiplayer/MyFirstMultiplayerGame.png){: .center}
+![Name](../img/MyFirstMultiplayer/MyFirstMultiplayerGame.png){: .center} -->
 
-#### Click **Create**
+1. Click **View Frameworks** in the **Core Game Frameworks** option.
+2. Click **Deathmatch**.
+3. Name your project. `MyFirstGame` works well, but choose any name you like.
+4. Click **Create**.
 
-### Explore the Map
+## Explore the Project
 
-The Deathmatch framework gives a great starting point! Let's try it out ourselves.
+The Deathmatch framework gives you a complete game arena and shooter functionality out of the box.
 
-1. Behold the magnificence of this whiteboxed, free-for-all game framework! Let's jump in by pressing **Play**.
+![Whitebox](../img/MyFirstMultiplayer/WhiteboxMapMarked.png){: .center}
 
-    ![Whitebox](../img/MyFirstMultiplayer/WhiteboxMapMarked.png){: .center}
+### Test Player Movement
 
-2. Out of the box, you have a character who can move and jump! Explore the map by moving your character with the <kbd>WASD</kbd> keys and jumping with <kbd>Space</kbd>. Shoot the default gun with your left mouse click and interact with the door with <kbd>F</kbd>.
+- Press ![Play](../img/EditorManual/icons/Icon_Play.png) or <kbd>=</kbd> to experience your project as a player.
+  {: .image-inline-text .image-background}
+- Press <kbd>Tab</kbd> to pause the preview.
+- You can![Stop](../img/EditorManual/icons/Icon_Stop.png) or <kbd>=</kbd> to stop the preview.
+ {: .image-inline-text .image-background}
 
-    ![PlayMode](../img/MyFirstMultiplayer/PlayMode.png){: .center}
+As in any Core game project, you already have a working character controller.
 
-3. But we're all by ourselves. :worried: That's no fun, so let's test out the multiplayer experience by simulating two clients! Near the pause button, click on the **Multiplayer Preview Mode** button and select 2 Players.
+- Move the character with the <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, and <kbd>D</kbd> keys
+- Jump with <kbd>Space</kbd>
+- Crouch with <kbd>C</kbd>
+- Ride a mount with <kbd>G</kbd>
 
-    ![TwoPlayers](../img/MyFirstMultiplayer/TwoPlayers.png){: .center}
+### Test Shooter Mechanics
 
-4. Let's press Play again! Core will launch multiple windows, one for each player. You control whichever character is in the active window.
+Besides player movement, **Deathmatch** also gives each player a gun to shoot, and the ability to open and close doors.
+
+- Shoot the default gun with the left mouse button.
+- Open and close a door with <kbd>F</kbd>.
+
+![PlayMode](../img/MyFirstMultiplayer/PlayMode.png){: .center}
+
+### Test Multiplayer Gameplay
+
+Core projects also include multiplayer networking by default. Because this is a crucial component of this game, it is important to test using **Multiplayer Preview Mode** as much as possible.
+![TwoPlayers](../img/MyFirstMultiplayer/TwoPlayers.png){: .center}
+
+1. Click ![Multiplayer Preview Mode](../img/EditorManual/icons/Icon_MultiplayerTest.png) to switch the Preview Mode to Multiplayer.
+    {: .image-inline-text .image-background}
+2. Press ![Play](../img/EditorManual/icons/Icon_Play.png) to start the preview. This will open a separate game window for each player.
+    {: .image-inline-text .image-background}
 
     ![MPPreview](../img/MyFirstMultiplayer/MultiplayerPreviewPlay.png){: .center}
 
 !!! tip
-    Note that you can use <kbd>Alt</kbd> + <kbd>Enter</kbd> to toggle between fullscreen and windowed mode. You can also use <kbd>Win</kbd> + <kbd>Arrow</kbd> to dock the screens side by side like above!
+     You can use <kbd>Alt</kbd> + <kbd>Enter</kbd> to toggle between fullscreen and windowed mode. You can also use <kbd>Win</kbd> + <kbd>Arrow</kbd> to dock the screens side by side like above!
 
 ## Make It Your Own
 
