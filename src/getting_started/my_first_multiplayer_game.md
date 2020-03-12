@@ -96,30 +96,35 @@ Core projects also include multiplayer networking by default. Because this is a 
 !!! tip
      You can use <kbd>Alt</kbd> + <kbd>Enter</kbd> to toggle between fullscreen and windowed mode. You can also use <kbd>Win</kbd> + <kbd>Arrow</kbd> to dock the screens side by side like above!
 
-## Make It Your Own
+## Customize the Arena
 
-So we have a whiteboxed map, and that's great and important in testing design! Now, let's customize the map and make it our own.
+### Explore Core Content
 
-1. Navigate to the **Core Content** window. You have access to a massive library of 3D assets, materials, and more for your game creation in Core!
+Core gives you a massive library of 3D assets, materials, sounds, and components for making games, which can be found in the **Core Content** Window.
 
-    ![Add Props](../img/MyFirstMultiplayer/AddPropsMarked.png){: .center}
+!!! note
+    You can reopen the "Core Content" window by going to **View** > **Core Content** in the top menu bar.
 
-    !!! note
-        If you can't find the "Core Content" window or accidentally close it, you can reopen the window by going to View > Core Content in the toolbar at the top of the editor.
+1. Click **Core Content**.
+2. Drop down the **3D Objects** menu to see the props and objects that can be added to the scene.
+3. Click on the **Nature** subcategory.
+4. Choose some props, and drag them into the scene.
 
-2. Click on "3D Objects" and then drag and drop props into the editor viewport! In this example, we're going to place some bushes.
+<!-- ![Add Props](../img/MyFirstMultiplayer/AddPropsMarked.png){: .center} -->
 
-    ![DragDrop](../img/MyFirstMultiplayer/DragDropBushes.gif){: .center}
+![DragDrop](../img/MyFirstMultiplayer/DragDropBushes.gif){: .center}
 
-3. You can move, rotate, and scale all these objects! `W` activates Translation Mode to move objects; `E` activates Rotation mode; and `R` activates Scale Mode to resize objects. Let's click and drag on an arrow to move the object along that axis.
+### Turn the
+
+1. You can move, rotate, and scale all these objects! `W` activates Translation Mode to move objects; `E` activates Rotation mode; and `R` activates Scale Mode to resize objects. Let's click and drag on an arrow to move the object along that axis.
 
     ![Move](../img/MyFirstMultiplayer/MoveBushes.gif){: .center}
 
-4. Press Play. Currently, if you try to move through a bush, you'll be stopped once you collide with the object.
+2. Press Play. Currently, if you try to move through a bush, you'll be stopped once you collide with the object.
 
-    ![Stuck](../img/MyFirstMultiplayer/StuckInBushes.png){: .center}
+    <!-- ![Stuck](../img/MyFirstMultiplayer/StuckInBushes.png){: .center} -->
 
-5. Bushes are great as environmental props to hide players, but it'd be great to let players push past them to surprise enemies in this game! Let's click on a Bush and check out the Properties window. By default, this Bush is "Collideable" but with a simple click, we can turn that off.
+3. Bushes are great as environmental props to hide players, but it'd be great to let players push past them to surprise enemies in this game! Let's click on a Bush and check out the Properties window. By default, this Bush is "Collideable" but with a simple click, we can turn that off.
 
     ![Collison](../img/MyFirstMultiplayer/NoCollisonBush.gif){: .center}
 
